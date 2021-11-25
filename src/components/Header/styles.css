@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 3px 5px 7px rgb(80, 79, 79);
+    background: rgb(247,247,247);
+    background: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(232,230,230,1) 23%, rgba(130,169,205,1) 43%, rgba(0,91,173,1) 80%, rgba(0,91,173,1) 100%);
+}
+
+.foto1 {
+    width: 260px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+a.button-menu{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.menu1 {
+    border: solid 1px #fff;
+    border-radius: 7px;
+    font-weight: normal !important;
+    transition: 0.3s;
+    font-family: 'mulish', sans-serif;
+    background-color: #fd7e14;
+}
+
+a.menu1:hover {
+    background-color: rgb(71, 154, 226)
+}
